@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #901010;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.form1 {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #901010;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #bc6357;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+div {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #901010;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('.static', filename='font.css')}}">
+    <title>RecipeFounder</title>
+</head>
+<body>
+    <h1>TROVA LA TUA RICETTA!</h1>
+    <p>Foto Caricata! Se hai finito clicca su "DAMMI LA RICETTA", altrimenti carica altro!</p>
+    <div>
+        <form method="post" action="{{ url_for( 'upload_image' ) }}" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <button type="submit" class="btn">Upload</button>
+        </form>
+
+        <form method="get" action="{{ url_for( 'give_recipe' ) }}">
+            <button type="submit" class="btn">Get Recipe</button>
+        </form>
+
+    </div>
+</body>
+</html>
+

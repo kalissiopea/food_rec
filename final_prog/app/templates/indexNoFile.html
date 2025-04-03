@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('.static', filename='font.css')}}">
+    <title>RecipeFounder</title>
+</head>
+<body>
+    <h1>TROVA LA TUA RICETTA!</h1>
+    <p>Carica una foto per cominciare!</p>
+    <form class="form1" action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload" class="btn">
+    </form>
+</body>
+</html>
+
